@@ -1,0 +1,23 @@
+- name: "Emergency Locksmith"
+  slug: "emergency-locksmith"
+  url: "/services/emergency-locksmith/"
+
+- name: "Residential Locksmith"
+  slug: "residential-locksmith"
+  url: "/services/residential-locksmith/"
+
+- name: "Automotive Locksmith"
+  slug: "automotive-locksmith"
+  url: "/services/automotive-locksmith/"
+
+- name: "Commercial Locksmith"
+  slug: "commercial-locksmith"
+  url: "/services/commercial-locksmith/"
+
+- name: "Lock Rekeying"
+  slug: "lock-rekeying"
+  url: "/services/lock-rekeying/"
+
+- name: "Safes & Security Solutions"
+  slug: "safes-security-solutions"
+  url: "/services/safes-security-solutions/"
