@@ -1,0 +1,34 @@
+title: "Locksmith Website"
+description: "Professional locksmith services"
+url: ""
+baseurl: ""
+
+markdown: kramdown
+permalink: /blog/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  services:
+    output: true
+    permalink: /services/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "page"
