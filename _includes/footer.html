@@ -1,0 +1,65 @@
+<footer class="site-footer">
+
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <h3>{{ site.data.business.business_name }}</h3>
+
+      <p>
+        {{ site.data.business.tagline }}
+      </p>
+    </div>
+
+
+    <div class="footer-contact">
+
+      <h4>Contact Us</h4>
+
+      <p>
+        {{ site.data.business.address }}
+      </p>
+
+      <p>
+        <a href="tel:{{ site.data.business.phone_link }}">
+          {{ site.data.business.phone_display }}
+        </a>
+      </p>
+
+      <p>
+        <a href="mailto:{{ site.data.business.email }}">
+          {{ site.data.business.email }}
+        </a>
+      </p>
+
+    </div>
+
+
+    <div class="footer-hours">
+
+      <h4>Business Hours</h4>
+
+      <p>
+        {{ site.data.business.hours }}
+      </p>
+
+      <p>
+        Service Area:<br>
+        {{ site.data.business.service_area }}
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    <p>
+      © {{ "now" | date: "%Y" }}
+      {{ site.data.business.business_name }}.
+      All Rights Reserved.
+    </p>
+
+  </div>
+
+</footer>
