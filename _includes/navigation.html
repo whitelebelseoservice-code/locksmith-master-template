@@ -1,0 +1,48 @@
+<nav class="site-nav">
+  <div class="nav-container">
+
+    <a href="{{ '/' | relative_url }}" class="logo">
+      {{ site.data.business.business_name }}
+    </a>
+
+    <button class="menu-toggle" aria-label="Toggle menu">
+      ☰
+    </button>
+
+    <div class="nav-links">
+
+      <a href="{{ '/' | relative_url }}">Home</a>
+
+      <a href="{{ '/about/' | relative_url }}">About</a>
+
+      <div class="dropdown">
+        <a href="{{ '/#services' | relative_url }}" class="dropbtn">
+          Services <span>▾</span>
+        </a>
+
+        <div class="dropdown-menu">
+
+          {% for service in site.data.services %}
+            <a href="{{ service.url | relative_url }}">
+              {{ service.name }}
+            </a>
+          {% endfor %}
+
+        </div>
+      </div>
+
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+
+      <a
+        href="tel:{{ site.data.business.phone_link }}"
+        class="call"
+      >
+        {{ site.data.business.primary_cta }}
+      </a>
+
+    </div>
+
+  </div>
+</nav>
