@@ -1,0 +1,65 @@
+# ==========================================
+# BUSINESS INFORMATION
+# ==========================================
+
+business_name: "Apex Locksmith"
+
+phone: "+1 (555) 247-LOCK"
+
+email: "hello@apexlocksmith.com"
+
+address: "123 Main Street, Your City, ST 00000"
+
+city: "Your City"
+
+state: "ST"
+
+zip: "00000"
+
+service_area: "Your City & Surrounding Areas"
+
+hours: "24/7"
+
+# ==========================================
+# CONTACT & CTA
+# ==========================================
+
+phone_display: "+1 (555) 247-LOCK"
+
+phone_link: "+15552475625"
+
+primary_cta: "Call Now"
+
+secondary_cta: "Get a Free Quote"
+
+# ==========================================
+# BRAND
+# ==========================================
+
+logo: "/assets/images/logo.png"
+
+tagline: "Fast, Reliable & Professional Locksmith Services"
+
+# ==========================================
+# SOCIAL PROFILES
+# ==========================================
+
+facebook: ""
+
+instagram: ""
+
+linkedin: ""
+
+youtube: ""
+
+# ==========================================
+# BUSINESS DETAILS
+# ==========================================
+
+founded: ""
+
+license: ""
+
+emergency_service: true
+
+service_area_business: true
