@@ -1,0 +1,41 @@
+---
+layout: default
+title: Home
+description: "Professional locksmith services in Your City."
+---
+
+<section class="container" style="padding: 100px 0; text-align: center;">
+
+  <p style="font-weight: 700; letter-spacing: 1px;">
+    {{ site.data.business.city }}, {{ site.data.business.state }}
+  </p>
+
+  <h1>
+    {{ site.data.business.business_name }}
+  </h1>
+
+  <p style="max-width: 700px; margin: 20px auto;">
+    {{ site.data.business.tagline }}
+  </p>
+
+  <p>
+    <strong>Phone:</strong>
+    <a href="tel:{{ site.data.business.phone_link }}">
+      {{ site.data.business.phone_display }}
+    </a>
+  </p>
+
+  <p>
+    <strong>Service Area:</strong>
+    {{ site.data.business.service_area }}
+  </p>
+
+  <a
+    href="tel:{{ site.data.business.phone_link }}"
+    class="btn"
+    style="background:#d4af37; color:#111; margin-top:20px;"
+  >
+    {{ site.data.business.primary_cta }}
+  </a>
+
+</section>
